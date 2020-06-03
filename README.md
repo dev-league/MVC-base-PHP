@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://dev-league.com">
-    <img src="https://raw.githubusercontent.com/dev-league/MVC-base-PHP/master/assets/dist/img/logo.png" alt="Logo">
+    <img src="https://raw.githubusercontent.com/dev-league/MVC-base-PHP/master/assets/dist/img/logo.jpeg" alt="Logo">
   </a>
 
   <h1 align="center"> MVC standard structure with PHP</h3>
