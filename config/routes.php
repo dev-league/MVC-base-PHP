@@ -28,7 +28,7 @@ class Routes
     public static function getParam()
     {
         $httpMethod = $_SERVER['REQUEST_METHOD'];
-        $uri = $_SERVER['REQUEST_URI'];
+        $uri = rawurldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
         $letrafinal = substr($uri, -1);
         if ($letrafinal == "/") {
             $uri = substr($uri, 0, -1);
